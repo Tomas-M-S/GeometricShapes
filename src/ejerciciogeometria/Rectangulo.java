@@ -28,8 +28,9 @@ public class Rectangulo extends Forma {
         }
         else {
             // No se pueden dar los casos:
-            // - (x1 <= x2) y (y1 > y2)
-            // - (x1 >= x2) y (y1 < y2)
+            // * (x1 <= x2) y (y1 > y2)
+            // * (x1 >= x2) y (y1 < y2)
+            // // Esto no es correcto, se debe de corregir //
             throw new ExceptionAritmetica("Los puntos no son válidos, revísalos");
         }
     }
