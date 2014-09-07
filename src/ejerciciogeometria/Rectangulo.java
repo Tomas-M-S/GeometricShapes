@@ -31,7 +31,7 @@ public class Rectangulo extends Forma {
             // * (x1 <= x2) y (y1 > y2)
             // * (x1 >= x2) y (y1 < y2)
             // // Esto no es correcto, se debe de corregir //
-            throw new ExceptionAritmetica("Los puntos no son válidos, revísalos");
+            throw new ExceptionAritmetica("Los puntos no son válidos");
         }
     }
 
