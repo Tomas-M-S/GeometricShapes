@@ -3,7 +3,7 @@ package ejerciciogeometria;
 /**
  * @since 01/06/2014
  * @author Tomas Martinez Sempere
- * @see Clase herederas Circulo y Rectangulo
+ * @see Clase herederas: Circulo y Rectangulo
  */
 abstract class Forma {
     
